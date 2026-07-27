@@ -1,4 +1,4 @@
-FROM node:18-slim
+FROM docker.io/library/node:18-alpine
 
 # add curl for healthcheck
 RUN apt-get update && \
