@@ -1,4 +1,4 @@
-FROM node:8.9-slim
+FROM docker.io/library/node:26.5-alpine
 
 RUN apt-get update -qq && apt-get install -qy \ 
     ca-certificates \
