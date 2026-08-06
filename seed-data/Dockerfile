@@ -1,4 +1,4 @@
-FROM docker.io/library/python:3.11-slim
+FROM docker.io/library/python:3.14-alpine
 
 # add apache bench (ab) tool
 RUN apt-get update \
