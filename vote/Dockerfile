@@ -1,5 +1,5 @@
 # base defines a base stage that uses the official python runtime base image
-FROM python:3.11-slim AS base
+FROM docker.io/library/python:3.14-alpine AS base
 
 # Add curl for healthcheck
 RUN apt-get update && \
